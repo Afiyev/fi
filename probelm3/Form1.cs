@@ -43,7 +43,35 @@ namespace probelm3
                 e.Graphics.DrawString("0", font1, Brushes.Blue, pointF1);
             }
 
+            using (Font font1 = new Font("Times New Roman", 10, FontStyle.Bold, GraphicsUnit.Pixel))
+            {
+                PointF pointF1 = new PointF(94, 118);
+                e.Graphics.DrawString("20", font1, Brushes.Blue, pointF1);
+            }
 
+            using (Font font1 = new Font("Times New Roman", 10, FontStyle.Bold, GraphicsUnit.Pixel))
+            {
+                PointF pointF1 = new PointF(131, 88);
+                e.Graphics.DrawString("40", font1, Brushes.Blue, pointF1);
+            }
+
+            using (Font font1 = new Font("Times New Roman", 10, FontStyle.Bold, GraphicsUnit.Pixel))
+            {
+                PointF pointF1 = new PointF(180, 96);
+                e.Graphics.DrawString("60", font1, Brushes.Blue, pointF1);
+            }
+
+            using (Font font1 = new Font("Times New Roman", 10, FontStyle.Bold, GraphicsUnit.Pixel))
+            {
+                PointF pointF1 = new PointF(200, 133);
+                e.Graphics.DrawString("80", font1, Brushes.Blue, pointF1);
+            }
+
+            using (Font font1 = new Font("Times New Roman", 10, FontStyle.Bold, GraphicsUnit.Pixel))
+            {
+                PointF pointF1 = new PointF(139, 201);
+                e.Graphics.DrawString("Google", font1, Brushes.Blue, pointF1);
+            }
 
             str.StartCap = LineCap.RoundAnchor;
             e.Graphics.DrawLine(str,150,150,104,177);
